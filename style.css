@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid{
+    max-width: 500px;
+    box-shadow: 1px 2px 5px black, -1px -1px 5px black;
+}
+
+#radioForm, #inputGroup{
+    display: flex;
+    justify-content: center;
+}
+
+#lotteryForm{
+    display: none;
+}
+
+.nums{
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 20%;
+    border-radius: 25px;
+    text-align: center;
+}
